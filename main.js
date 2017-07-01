@@ -57,6 +57,8 @@ function setup() {
 }
 
 function draw() {
+	
+	frameRate(60);
 
 	if (!song.isPlaying()) {
 
